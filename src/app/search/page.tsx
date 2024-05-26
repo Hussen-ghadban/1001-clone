@@ -1,4 +1,5 @@
 'use-client'
+import { useQuery } from '@tanstack/react-query';
 
 import Link from 'next/link';
 import React from 'react';
@@ -11,7 +12,9 @@ export default async function Search() {
   );
   const movie = await res.json();
 
-const movies=movie[1].videos.slice(0, 10);
+
+  const movies=movie[1].videos.slice(0, 10);
+
 
 
  

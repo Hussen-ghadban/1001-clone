@@ -1,10 +1,7 @@
 'use client'
-
-
 import { useQuery } from '@tanstack/react-query';
 import CardMovie from '../component/CardMovie';
 import Ho from '../component/Ho';
-import Search from './search/page';
 
  export default function Home() {
 
@@ -38,15 +35,9 @@ const movie17=data[17];
 const movie18=data[18];
 
 
-
-
-
-
-
   return (
     <div>
       <Ho/>
-  {/* <Search/> */}
  <CardMovie DataObject={movie1}/>
  <CardMovie DataObject={movie2}/>
  <CardMovie DataObject={movie3}/>

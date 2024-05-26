@@ -14,11 +14,11 @@ export default function Drop() {
   };
 
   return (
-    <div className="relative flex flex-col items-center w-[140px] rounded bg-transparent">
+    <div className="relative flex flex-col items-center w-[120px] rounded bg-transparent">
       <button
         onClick={() => setIsOpen((prev) => !prev)}
         className="p-2 mt-1 w-full flex items-center justify-between font-bold text-lg rounded-lg border-4 border-transparent hover:border-white active:border-green-700 duration-300 active:text-white"
-      ><IoIosGlobe className="bg-transparent   text-2xl md:text-3xl pr-2"/>
+      ><IoIosGlobe className="bg-transparent text-2xl md:text-3xl pr-2"/>
         {selectedOption}
         {!isOpen ? (
           <AiOutlineCaretDown className="h-8 bg-transparent" />

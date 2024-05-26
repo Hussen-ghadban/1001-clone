@@ -34,9 +34,9 @@ export default function Header() {
         <div className='bg-transparent'>Documentaries</div>
         <div className='bg-transparent'>Kids</div>
       </div>
-      <div className="flex items-center bg-transparent gap-x-2">
+      <div className="flex items-center bg-transparent gap-x-1  md:gap-x-2">
         <Link className='bg-transparent' href={'/search'} >
-        <CiSearch className='bg-transparent text-lg md:text-2xl'/>
+        <CiSearch className='bg-transparent ml-2 text-lg md:text-2xl'/>
         </Link>
         <Drop />
         <div className='bg-transparent pr-1 md:pr-4  text-2xl md:text-3xl'><CgProfile className='bg-transparent'/></div>
