@@ -1,7 +1,9 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
-
+-[Introduction](#introduction)
+-[Features](#features)
+-[Technologies Used](#yechnologies-used)
 First, run the development server:
 
 ```bash
@@ -13,6 +15,23 @@ pnpm dev
 # or
 bun dev
 ```
+## Introduction
+This project is a clone of the 1001.tv website. It provides a similar user experience and content as the original website. The project is built with Next.js 14, Tailwind CSS, and TypeScript. It features responsive design and uses TanStack for fetching data from an API.
+
+## Features
+- Responsive design
+- Clone of 1001.tv website
+- Fetches data using TanStack
+- Next.js for server-side rendering
+- Tailwind CSS for styling
+- TypeScript for static type checking
+
+## Technologies Used
+- Next.js 14
+- Tailwind CSS
+- TypeScript
+- TanStack (TanStack for fetching data)
+- swiperjs
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
