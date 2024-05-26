@@ -1,0 +1,61 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+*{
+  background-color:rgb(10,10,30);
+} 
+
+.all{
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  overflow-x: auto;
+  width: fit-content;
+  /* padding: 20px; */
+
+} 
+
+.con{
+  /* position: relative; */
+  width: 400px;
+  margin: 25px 15px;
+  /* height: 300px; */
+}
+
+.des{
+  display: none;
+  /* position: absolute; */
+  font-size: 25px;
+}
+
+
+
+.con :hover .im{
+
+}
+.con:hover{
+  transition: 0.7s;
+  transform: scaleX(1.2);
+}
+.con:hover .des{
+  transform: translateY(50px);
+  transition: 0.7s;
+
+  display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
